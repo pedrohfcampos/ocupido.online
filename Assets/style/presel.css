@@ -8,7 +8,33 @@
     font-size: 105%;
     font-family: sans-serif;
 }
+
+#presell{
+    font-size: 20px;
+    font: 700; 
+    font-family: Arial, Helvetica, sans-serif; 
+    padding-bottom: 5%;
 }
+
+#imagempressel {
+    width: 80%;
+}
+
+.btn-cta {
+    line-height: 22px;
+    padding: 15px 30px; /* Reduzindo o padding para tornar o botão menor */
+    max-width: 80%; /* Removendo a largura máxima para que o botão não exceda a largura da tela */
+    margin: 0 auto;
+    background-color: #000000;
+    border-radius: 50px;
+    box-shadow: 0px 0px 17px 7px #FFFFFF;
+    display: block;
+    text-align: center; /* Centralizando o conteúdo do botão */
+    
+}
+}
+
+@media screen and (min-width: 769px) {
 
 .btn-cta {
     line-height: 22px;
@@ -23,6 +49,18 @@
     
 }
 
+#presell{
+    font-size: 40px;
+    font: 700; 
+    font-family: Arial, Helvetica, sans-serif; 
+    padding-bottom: 5%;
+}
+
+
+#imagempressel {
+    width: 30%;
+}
+
 #texto {
     color: #008000;
     text-decoration: none !important;
@@ -34,3 +72,5 @@
 #botão a {
     text-decoration: none;
   }
+
+}
